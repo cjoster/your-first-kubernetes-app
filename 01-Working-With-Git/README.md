@@ -6,7 +6,10 @@ treat their kubernets objects as source code, so storing it in,
 and managing it with `git` makes sense.
 
 This is not intended to be a full `git` totorial, but instead
-simply get you started with the concepts. To install 
+simply get you started with the concepts. A far better `git` tutorial
+can be found on git's website here: [https://git-scm.com/docs/gittutorial](https://git-scm.com/docs/gittutorial)
+
+To install `git`, run the following commands. 
 
 ## Linux DNF based distro (Fedora, Centos 8+, RHEL 8+, etc)
 
@@ -25,6 +28,26 @@ sudo yum install git
 ```bash
 sudo apt-get update
 sudo apt-get install git
+```
+
+## MacOS
+
+On a Mac, you have several options. You can use the `xcode` tools version of it,
+which is distrubuted and maintained by Apple, or, if you have [Homebrew](https://docs.brew.sh/Installation)
+installed, you can use `brew` to install a likely newer version of `git` using
+that (homebrew requires the `xcode` tools, so you'll have to do the next step
+either way:
+
+### Install the xcode tools
+
+```bash
+xcode-select --install
+```
+
+### If installing from Homebrew
+
+```bash
+brew install git
 ```
 
 ## Windows
