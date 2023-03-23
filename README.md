@@ -11,6 +11,6 @@ kind, pull requests are welcome.
 
 # Table of Contents
 
-| Chapter | Name |
-| ------- | ---- |
-| 01 | Getting Started with Git |
+1. [Working with Git](01-Working-With-Git)
+* [Instaling Git Tooling](01-Working-With-Git/Installing-Git)
+* [Cloning this Git Repository](01-Working-With-Git/Cloning-Repository)
