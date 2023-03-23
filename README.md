@@ -12,5 +12,5 @@ kind, pull requests are welcome.
 # Table of Contents
 
 1. [Working with Git](01-Working-With-Git)
-* [Instaling Git Tooling](01-Working-With-Git/Installing-Git)
-* [Cloning this Git Repository](01-Working-With-Git/Cloning-Repository)
+   1.1 [Instaling Git Tooling](01-Working-With-Git/Installing-Git)
+   1.2 [Cloning this Git Repository](01-Working-With-Git/Cloning-Repository)
