@@ -93,6 +93,7 @@ Now you can clone this repository using the following commands:
 mkdir -p ~/src
 cd ~/src
 git clone https://github.com/cjoster/your-first-kubernetes-app.git
+cd your-first-kubernetes-app
 ```
 
 # Next steps

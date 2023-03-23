@@ -1,3 +1,4 @@
+
 # Your First Kubernetes Application
 
 This guide is intended to walk a new user through starting from
@@ -12,5 +13,10 @@ kind, pull requests are welcome.
 # Table of Contents
 
 1. [Working with Git](01-Working-With-Git)
-    1. [Instaling Git Tooling](01-Working-With-Git/Installing-Git)
-    2. [Cloning this Git Repository](01-Working-With-Git/Cloning-Repository)
+    1. [Installing Git](01-Working-With-Git#installing-git)
+        1. [DNF Based Linux Distributions](01-Working-With-Git#installing-dnf)
+        2. [Yum Based Linux Distributions](01-Working-With-Git#installing-yum)
+        3. [Debian Based Linux Distributions](01-Working-With-Git#installing-deb)
+        4. [MacOS](01-Working-With-Git#installing-macos)
+        5. [Windows](01-Working-With-Git#installing-windows)
+    2. [Cloning This Git Repository](01-Working-With-Git#cloning-git) 
