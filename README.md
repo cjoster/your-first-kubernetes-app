@@ -12,4 +12,5 @@ kind, pull requests are welcome.
 # Table of Contents
 
 | Chapter | Name |
+| ------- | ---- |
 | 01 | Getting Started with Git |
