@@ -99,4 +99,4 @@ cd your-first-kubernetes-app
 # Next steps
 
 Once you have `git` installed, head on to the next section [Cloning a git repository](../02-Cloning-a-git-Repository)
-or you can head back to the [Table of Contents](../../) and navigate to the next section.
+or you can head back to the [Table of Contents](../../../) and navigate to the next section.
