@@ -33,7 +33,7 @@ This tutorial is not intended to be a complete reference for everything that you
 Containerfile. More information can be found in the man pages on your system (`man Containerfile`),
 over at the [Dockerfile specification](https://docs.docker.com/engine/reference/builder/).
 
-The Containerfile for this tutorial is [in the `Containerfile` file](Containerfile) in ths
+The Containerfile for this tutorial is [in the `Containerfile` file](Containerfile) in this
 directory. It is also included here for explanation:
 
 ```Containerfile
@@ -49,7 +49,7 @@ COPY src /var/www/html
 ## Containerfile Explanation
 
 The `FROM` line tells the underlying engine to download the `php`
-base container, specificatly the `8.1.17-apache` version. This is
+base container, specifically the `8.1.17-apache` version. This is
 so that we can run php scripts inside the Apache web server.
 
 The next `COPY` line copies some overriding of the Apache configuration
@@ -89,7 +89,7 @@ is `podman`.
 
 ### Podman
 
-You can build the container image using podman by running the following
+You can build the container image using `podman` by running the following
 command:
 
 ```bash
@@ -167,7 +167,7 @@ Successfully tagged localhost/phpdemo:0.1a
 buildah images
 ```
 
-Which will look somethig like:
+Which will look something like:
 
 ```
 REPOSITORY                          TAG             IMAGE ID       CREATED              SIZE
