@@ -204,6 +204,6 @@ docker images
 
 # Next steps
 
-Once you have built the image, you can head other to the next step: [Testing Your Container Locally](../03-Testing-Your-Container-Locally)
+Once you have built the image, you can head over to the next step: [Testing Your Container Locally](../03-Testing-Your-Container-Locally)
 or head back to the [Table of Contents](../../../) and navigate from there.
 

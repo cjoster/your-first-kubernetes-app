@@ -46,6 +46,6 @@ The command syntax for docker is identical to the `podman` syntax.
 
 # Next steps
 
-Once you have tested your image locally, you can head other to the next step: [Publishing Your Container Image](../04-Publishing-Your-Container-Image)
+Once you have tested your image locally, you can head over to the next step: [Publishing Your Container Image](../04-Publishing-Your-Container-Image)
 or head back to the [Table of Contents](../../../) and navigate from there.
 
