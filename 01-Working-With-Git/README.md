@@ -1,11 +1,11 @@
 # Working with git
 
-Git is a souce code management (SCM) tool that allows teams
+Git is a source code management (SCM) tool that allows teams
 to collaborate on source code. Kubernetes admins and developers
-treat their kubernets objects as source code, so storing it in,
+treat their kubernetes objects as source code, so storing it in,
 and managing it with `git` makes sense.
 
-This is not intended to be a full `git` totorial, but instead
+This is not intended to be a full `git` tutorial, but instead
 simply get you started with the concepts. A far better `git` tutorial
 can be found on git's website here: [https://git-scm.com/docs/gittutorial](https://git-scm.com/docs/gittutorial)
 
@@ -24,7 +24,7 @@ The step in this tutorial can be broken own into the following:
 
 To install `git`, run the following commands. 
 
-## Linux DNF based distro (Fedora, Centos 8+, RHEL 8+, etc)
+## Linux DNF based distro (Fedora, CentOS 8+, RHEL 8+, etc)
 
 <a name="installing-dnf"></a>
 
@@ -51,7 +51,7 @@ sudo apt-get install git
 ## MacOS
 
 On a Mac, you have several options. You can use the `xcode` tools version of it,
-which is distrubuted and maintained by Apple, or, if you have [Homebrew](https://docs.brew.sh/Installation)
+which is distributed and maintained by Apple, or, if you have [Homebrew](https://docs.brew.sh/Installation)
 installed, you can use `brew` to install a likely newer version of `git` using
 that (homebrew requires the `xcode` tools, so you'll have to do the next step
 either way:
