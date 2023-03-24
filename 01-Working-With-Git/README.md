@@ -15,13 +15,12 @@ The step in this tutorial can be broken own into the following:
     1. [DNF Based Linux Distributions](#installing-dnf)
     2. [Yum Based Linux Distributions](#installing-yum)
     3. [Debian Based Linux Distributions](#installing-deb)
-    4. [MacOS](#installing-macos)
-    5. [Windows](#installing-windows)
-2. [Cloning This Git Repository](#cloning-git) 
+    4. [MacOS](#macos)
+    5. [Windows](#windows)
+2. [Cloning This Git Repository](#cloning-this-git-repository) 
+3. [Next Steps](#next-steps)
 
 # Installing Git
-
-<a name="installing-git"></a>
 
 To install `git`, run the following commands. 
 
@@ -51,8 +50,6 @@ sudo apt-get install git
 
 ## MacOS
 
-<a name="installing-macos"></a>
-
 On a Mac, you have several options. You can use the `xcode` tools version of it,
 which is distrubuted and maintained by Apple, or, if you have [Homebrew](https://docs.brew.sh/Installation)
 installed, you can use `brew` to install a likely newer version of `git` using
@@ -73,8 +70,6 @@ brew install git
 
 ## Windows
 
-<a name="installing-windows"></a>
-
 There are a variety of tools that can work with `git` repositories
 on a Windows machine. If you choose to use these tools, you will
 need to figure out how to get started with this tutorial on your
@@ -84,8 +79,6 @@ The typical Windows-base git mechanisms are [git bash](https://git-scm.com/downl
 and Microsoft's on [VS Code](https://code.visualstudio.com/download).
 
 # Cloning this Git Repository
-
-<a name="cloning-git"></a>
 
 Now you can clone this repository using the following commands:
 
