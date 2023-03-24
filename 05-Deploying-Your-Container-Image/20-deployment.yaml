@@ -1,0 +1,72 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: phpdemo
+  name: phpdemo
+  namespace: phpdemo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: phpdemo 
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: phpdemo
+    spec:
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+      - name: phpdemo
+        image: docker.io/cjoster/phpdemo:0.1a
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop:
+            - ALL
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 3
+          periodSeconds: 3
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 3
+          periodSeconds: 3
+        imagePullPolicy: Always
+        volumeMounts:
+        - mountPath: /tmp
+          name: tmp
+          subPath: tmp
+        - mountPath: /var/run
+          name: tmp
+          subPath: run
+      volumes:
+      - name: tmp
+        emptyDir:
+          medium: Memory
+          sizeLimit: 64Mi
+      nodeSelector:
+        kubernetes.io/os: linux
+      serviceAccountName: phpdemo-runner
+      # These are necessary if running on the control plane nodes (e.g. minikube)
+      tolerations:
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/control-plane
+
