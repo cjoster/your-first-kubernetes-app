@@ -1,0 +1,7 @@
+FROM php:8.1.17-apache
+
+# Copy apache configuration
+COPY apache2 /etc/apache2
+
+# Copy our site
+COPY site /var/www/html
