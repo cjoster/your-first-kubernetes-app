@@ -17,3 +17,5 @@ kind, pull requests are welcome.
 3. [Testing Your Container Locally](03-Testing-Your-Container-Locally)
 4. [Publishing Your Container Image](04-Publishing-Your-Container-Image)
 5. [Deploying Your Container Image](05-Deploying-Your-Container-Image)
+6. [Installing An Ingress Controller](06-Installing-An-Ingress-Controller)
+7. [Templating Your Deployment With Helm](06-Templating-Your-Depoloyment-With-Helm)
