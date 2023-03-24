@@ -16,7 +16,7 @@ Steps to build containers are here
     1. [Building the Container With `podman`](#podman)
     2. [Building the Container With `buildah`](#buildah)
     3. [Building the Container With `docker`](#docker)
-4 [Next Steps](#next-steps)
+4. [Next Steps](#next-steps)
 
 ## Containerfiles
 
